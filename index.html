@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>LiChiaHao的主页</title>
-</head>
-<body>
-  <h1>LiChiaHao的主页</h1>
-  <p>
-    <a href = "/index.html">首页</a>
-    <a href = "/calculators.html">计算器</a>
-  </p>
-
-</body>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <title>LiChiaHao的博客</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>LiChiaHao的博客</h1>
+    <form action="login" method="post" class="right">
+      用户名：<input
+        type="text"
+        placeholder="请输入用户名"
+        name="UserName"
+        class="input"
+        required
+      /><br />
+      密码：<input
+        type="password"
+        placeholder="请输入密码"
+        name="Password"
+        class="input"
+        required
+      /><br />
+      <input type="checkbox" name="check" required />我将遵守规定
+      <h6 class="req">（必须）</h6>
+      <br />
+      <input type="submit" value="登陆" />
+    </form>
+    <button onclick="goToDiary()">2024年8月29日</button>
+  </body>
 </html>
