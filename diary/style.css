@@ -1,6 +1,10 @@
 body {
   background-color: #ececec;
 }
+a {
+  color: black;
+}
+
 button {
   color: black;
   text-transform: uppercase;

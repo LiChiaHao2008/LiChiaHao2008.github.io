@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>LiChiaHao的博客</title>
+  </head>
+  <body>
+    <h1>LiChiaHao的博客</h1>
+    <form action="/login" method="post">
+      用户名：<input type="text" placeholder="请输入用户名" name="UserName" required><br>
+      密码：<input type="password" placeholder="请输入密码" name="Password" required><br>
+      <input type="checkbox" name="check" required>我将遵守规定<br>
+      <input type="submit" value="登陆">
+    </form>
+  </body>
+</html>

@@ -1,3 +1,3 @@
-function goToDiary() {
-  window.location.href = "diary/2024-8-29.html"
+function goToDiary(diaryDate) {
+  window.location.href = "diary/" + diaryDate + ".html";
 }

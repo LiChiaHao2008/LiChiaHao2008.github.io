@@ -1,3 +1,7 @@
 function goBack() {
-  window.history.back();
+  window.location.href = "../index.html";
+}
+
+function goToDate(fileDate) {
+  window.location.href = fileDate + ".html";
 }
